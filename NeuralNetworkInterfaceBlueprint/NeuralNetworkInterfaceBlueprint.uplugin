@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "NeuralNetworkInterfaceBlueprint",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Alessandro Pregnolato",
+	"CreatedByURL": "https://github.com/AlePre2",
+	"DocsURL": "https://github.com/AlePre2/Unreal_NeuralNetworkInterfaceBlueprint",
+	"MarketplaceURL": "",
+	"SupportURL": "aleprecom@gmail.com",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NeuralNetworkInterfaceBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		}
+	],
+ 	"Plugins": [
+   		{
+      		"Name": "NeuralNetworkInference",
+     			 "Enabled": true
+   		 }
+ 	 ] 
+}
